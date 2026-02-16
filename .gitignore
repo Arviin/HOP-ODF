@@ -1,0 +1,17 @@
+# Pixi environments
+.pixi/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Figures / outputs (optional)
+figures/
+*.png
+*.pdf
