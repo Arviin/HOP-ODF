@@ -54,3 +54,15 @@ Interpretation:
 
 ```bash
 pixi run hop-odf
+
+
+
+## Author
+
+**Fazel (Arvin) Mirzaei**  
+Postdoctoral Researcher  ; fazel.mirzaei@psi.ch
+Paul Scherrer Institute (PSI), Switzerland  
+
+This project was developed as part of research activities related to fibre orientation analysis and manuscript figure preparation.  
+
+Paul Scherrer Institute (PSI) is Switzerland’s largest research institute for natural and engineering sciences, focusing on cutting-edge research in energy, materials, and health.
