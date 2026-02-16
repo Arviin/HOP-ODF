@@ -1,58 +1,56 @@
-\# HOP–ODF Visualization (Synthetic)
+# HOP–ODF Visualization
 
+Synthetic visualization of fibre orientation and the corresponding  
+**Orientation Distribution Function (ODF)** for prescribed  
+**Hermans Orientation Parameter (HOP)** values.
 
+---
 
-This repository generates \*\*synthetic\*\* fibre cross-sections (line segments in a disk) and the corresponding
+## What This Repository Does
 
-\*\*Orientation Distribution Functions (ODF)\*\* for prescribed \*\*Hermans Orientation Parameter (HOP)\*\* values,
+This project generates synthetic fibre cross-sections (line segments inside a disk) together with their corresponding ODFs.
 
-including negative HOP values (perpendicular preference).
+The figure layout is:
 
+- **Left column:** Fibre cross-section (reference direction shown by arrow)
+- **Right column:** Orientation Distribution Function (ODF) in polar coordinates  
+  (using α = 2θ for undirected fibres)
 
+The purpose is to build physical intuition for how scalar orientational order (HOP) relates to the full angular distribution.
 
-The figure is intended for manuscript-quality illustration and for building intuition:
+---
 
-\- \*\*Left column:\*\* fibre cross-section (reference direction shown by arrow)
+## Interpretation of HOP
 
-\- \*\*Right column:\*\* ODF shown in polar form (α = 2θ for undirected fibres)
+The Hermans Orientation Parameter is defined as:
 
+\[
+HOP = \frac{1}{2}\left(3\langle \cos^2\phi \rangle - 1\right)
+\]
 
+Its theoretical range is:
 
-\## Reproducibility
+- **−0.5** → perfect perpendicular alignment  
+- **0** → isotropic (random orientation)  
+- **1** → perfect alignment with the reference direction  
 
-\- Dependencies are pinned via \*\*Pixi\*\* (`pixi.toml` + `pixi.lock`).
+Interpretation:
 
-\- Random seeds are fixed for deterministic outputs.
+- **HOP > 0**: preferential alignment with the reference axis  
+- **HOP = 0**: no preferred direction  
+- **HOP < 0**: preferential alignment perpendicular to the reference axis  
 
+---
 
+## Reproducibility
 
-\## Run with Pixi (recommended)
+- Dependencies are pinned via **Pixi** (`pixi.toml` and `pixi.lock`)
+- Random seeds are fixed for deterministic outputs
+- Figures are generated algorithmically from synthetic orientation distributions
+
+---
+
+## Run with Pixi (Recommended)
 
 ```bash
-
 pixi run hop-odf
-
-\## Interpretation of HOP
-
-
-
-The Hermans Orientation Parameter (HOP) ranges from:
-
-
-
-\- \*\*−0.5\*\* → perfect perpendicular alignment  
-
-\- \*\*0\*\* → isotropic (random orientation)  
-
-\- \*\*1\*\* → perfect alignment with the reference direction  
-
-
-
-Positive HOP values indicate preferential alignment with the reference axis,
-
-while negative values indicate preferential alignment perpendicular to it.
-
-HOP = (3⟨cos²φ⟩ − 1) / 2
-
-
-
