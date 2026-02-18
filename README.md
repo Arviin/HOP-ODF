@@ -60,7 +60,7 @@ pixi run hop-odf
 
 ## Author
 
-**Fazel (Arvin) Mirzaei**  
+**Arvin (Fazel) Mirzaei**  
 Postdoctoral Researcher  ; fazel.mirzaei@psi.ch
 Paul Scherrer Institute (PSI), Switzerland  
 
