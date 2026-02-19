@@ -5,18 +5,52 @@ Synthetic visualization of fibre orientation and the corresponding
 **Hermans Orientation Parameter (HOP)** values.
 
 ---
-
 ## What This Repository Does
 
-This project generates synthetic fibre cross-sections (line segments inside a disk) together with their corresponding ODFs.
+This repository provides a controlled, synthetic visualization of fibre orientation statistics and their relationship to the Hermans Orientation Parameter (HOP).
+
+It generates synthetic fibre cross-sections (line segments within a disk) together with their corresponding Orientation Distribution Functions (ODFs), for prescribed HOP values spanning:
+
+- transverse alignment (HOP < 0),
+- isotropic orientation (HOP = 0),
+- axial alignment (HOP > 0).
 
 The figure layout is:
 
-- **Left column:** Fibre cross-section (reference direction shown by arrow)
-- **Right column:** Orientation Distribution Function (ODF) in polar coordinates  
-  (using α = 2θ for undirected fibres)
+- **Left column:** Real-space fibre configuration in a 2D cross-section (reference direction indicated by an arrow)
+- **Right column:** Orientation Distribution Function (ODF) shown in polar coordinates  
+  (using the standard undirected-fibre mapping α = 2θ to represent θ ∈ [0°, 180°) on a full 0–360° polar axis)
 
-The purpose is to build physical intuition for how scalar orientational order (HOP) relates to the full angular distribution.
+---
+
+## Scientific Context
+
+The purpose of this project is to build physical intuition for how a scalar orientational order parameter (HOP) relates to the full angular distribution of fibre orientations.
+
+The Hermans Orientation Parameter,
+
+\[
+HOP = \frac{1}{2} \left( 3 \langle \cos^2\phi \rangle - 1 \right),
+\]
+
+represents the second Legendre moment of the orientation distribution relative to a reference axis. While HOP provides a compact scalar measure of orientational order, it does not uniquely define the full ODF. Different angular distributions may yield identical HOP values.
+
+This repository therefore illustrates:
+
+- how increasing |HOP| sharpens the angular distribution,
+- how the sign of HOP distinguishes axial vs transverse preferential alignment,
+- and how scalar order parameters relate to full angular statistics.
+
+---
+
+## Relation to Ongoing Research
+
+This work is part of ongoing research on the application of **directional neutron dark-field imaging (DFI)** to probe anisotropic microstructures in cellulose-based materials.
+
+Directional neutron dark-field imaging is sensitive to small-angle scattering anisotropy, which is directly related to underlying fibre orientation distributions. Understanding the relationship between HOP and the full ODF is therefore essential for interpreting anisotropic dark-field signals and linking imaging contrast to physical microstructure.
+
+The present code provides a synthetic and reproducible framework to support that interpretation.
+
 
 ---
 
