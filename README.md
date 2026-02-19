@@ -29,9 +29,8 @@ The purpose of this project is to build physical intuition for how a scalar orie
 
 The Hermans Orientation Parameter,
 ```
-\[
-HOP = \frac{1}{2} \left( 3 \langle \cos^2\phi \rangle - 1 \right),
-\]
+HOP = 0.5 * (3 ⟨cos²φ⟩ − 1)
+
 ```
 represents the second Legendre moment of the orientation distribution relative to a reference axis. While HOP provides a compact scalar measure of orientational order, it does not uniquely define the full ODF. Different angular distributions may yield identical HOP values.
 
