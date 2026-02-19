@@ -28,11 +28,11 @@ The figure layout is:
 The purpose of this project is to build physical intuition for how a scalar orientational order parameter (HOP) relates to the full angular distribution of fibre orientations.
 
 The Hermans Orientation Parameter,
-
+```
 \[
 HOP = \frac{1}{2} \left( 3 \langle \cos^2\phi \rangle - 1 \right),
 \]
-
+```
 represents the second Legendre moment of the orientation distribution relative to a reference axis. While HOP provides a compact scalar measure of orientational order, it does not uniquely define the full ODF. Different angular distributions may yield identical HOP values.
 
 This repository therefore illustrates:
