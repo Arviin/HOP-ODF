@@ -1,7 +1,7 @@
 """
 HOP–ODF visualization (synthetic)
 
-Generates synthetic fibre configurations in a disk and their corresponding
+The following code generates synthetic fibre configurations in a disk and their corresponding
 orientation distribution functions (ODF) for prescribed Hermans Orientation
 Parameter (HOP) values (including negative values for perpendicular alignment).
 
