@@ -42,17 +42,6 @@ This repository therefore illustrates:
 
 ---
 
-## Relation to Ongoing Research
-
-This work is part of ongoing research on the application of **directional neutron dark-field imaging (DFI)** to probe anisotropic microstructures in cellulose-based materials.
-
-Directional neutron dark-field imaging is sensitive to small-angle scattering anisotropy, which is directly related to underlying fibre orientation distributions. Understanding the relationship between HOP and the full ODF is therefore essential for interpreting anisotropic dark-field signals and linking imaging contrast to physical microstructure.
-
-The present code provides a synthetic and reproducible framework to support that interpretation.
-
-
----
-
 ## Interpretation of HOP
 
 The Hermans Orientation Parameter is defined as:
@@ -97,6 +86,15 @@ pixi run hop-odf
 Postdoctoral Researcher  ; fazel.mirzaei@psi.ch
 Paul Scherrer Institute (PSI), Switzerland  
 
-This project was developed as part of research activities related to fibre orientation analysis and manuscript figure preparation.  
+---
+
+## Cite
+This project was developed as part of the research paper "Multi-directional neutron dark-field tomography of nanostructural orientation in cellulose foams".
+DOI: https://doi.org/10.1016/j.mtadv.2026.100824
+
+Corresponding author:
+Prof. Dr. Markus Strobl
+markus.strobl@psi.ch
+
 
 Paul Scherrer Institute (PSI) is Switzerland’s largest research institute for natural and engineering sciences, focusing on cutting-edge research in energy, materials, and health.
