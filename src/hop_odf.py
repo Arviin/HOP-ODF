@@ -1,5 +1,5 @@
 """
-HOP–ODF visualization (synthetic)
+HOP–ODF visualization
 
 The following code generates synthetic fibre configurations in a disk and their corresponding
 orientation distribution functions (ODF) for prescribed Hermans Orientation
