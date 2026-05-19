@@ -84,7 +84,10 @@ pixi run hop-odf
 
 **Arvin (Fazel) Mirzaei**  
 Postdoctoral Researcher  ; fazel.mirzaei@psi.ch
-Paul Scherrer Institute (PSI), Switzerland  
+Paul Scherrer Institute (PSI), Switzerland.
+
+
+Paul Scherrer Institute (PSI) is Switzerland’s largest research institute for natural and engineering sciences, focusing on cutting-edge research in energy, materials, and health.
 
 ---
 
@@ -97,4 +100,3 @@ Prof. Dr. Markus Strobl
 markus.strobl@psi.ch
 
 
-Paul Scherrer Institute (PSI) is Switzerland’s largest research institute for natural and engineering sciences, focusing on cutting-edge research in energy, materials, and health.
