@@ -92,7 +92,7 @@ Paul Scherrer Institute (PSI) is Switzerland’s largest research institute for 
 ---
 
 ## Cite
-This project was developed as part of the research paper "Multi-directional neutron dark-field tomography of nanostructural orientation in cellulose foams".
+This project was developed as part of the research paper ### Multi-directional neutron dark-field tomography of nanostructural orientation in cellulose foams ###.
 DOI: https://doi.org/10.1016/j.mtadv.2026.100824
 
 Corresponding author:
